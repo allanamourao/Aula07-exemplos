@@ -1,0 +1,137 @@
+html{
+    scroll-behavior: smooth;
+} 
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #c900ab;
+    background-color: #f2f5f9;
+}
+
+/* Cabeçalho */
+.topo{
+    background-color: #c80d96;
+    color:white;
+    padding: 24px;
+}
+
+.topo h1{
+    margin-bottom: 8px;
+}
+
+.menu-horizontal ul{
+    display: flex;
+    gap: 8px;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-horizontal a{
+    background-color: #ff8ff4;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+
+.menu-horizontal a:hover{
+    background-color: #a8097b;
+    cursor: pointer;
+    padding: 15px 15px;
+}
+
+.pagina{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1050px;
+    margin: 24px auto;
+}
+
+.menu-lateral{
+    width: 205px;
+    background-color: #e4ebf5;
+    padding: 14px;
+    border-radius: 8px;
+}
+
+.menu-lateral h2{
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.menu-lateral ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-lateral a{
+    padding: 12px 10px;
+    color: #d364bd;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 4px;
+    display: block;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.menu-lateral a:hover{
+    background-color: #f0cbec;
+    box-shadow: 5px 5px 5px #691744;
+}
+
+.conteudo{
+    flex: 1;
+}
+
+.section{
+    padding: 20px;
+    margin-bottom: 16px;
+    background-color: rgb(254, 208, 242);
+    border: 1px solid #eedce8;
+    border-radius: 8px;
+}
+
+.section h2{
+    color: #c940a0;
+}
+
+.imagem{
+    width: 400px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+}
+
+.lista-conteudo{
+    font-size: 18px;
+}
+
+table{
+    width: 100;
+}
+
+th, td{
+    border: 1px solid #d2a8d0;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: #e4ebf5;
+}
+
+.link{
+    background-color: #eb06dc;
+    color: white;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.link:hover{
+    background-color: #aa0280;
+}
