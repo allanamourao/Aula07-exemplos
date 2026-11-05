@@ -135,3 +135,16 @@ th{
 .link:hover{
     background-color: #aa0280;
 }
+
+.menu-horizontal .submenu{
+    display: none; /* Esconde */
+}
+
+.menu-horizontal li:hover .submenu{
+    display: block;
+}
+
+.menu-horizontal a{
+    display: block;
+    margin-top: 10px;
+}
